@@ -1,0 +1,34 @@
+/* :root {
+  --main-bg-color: brown;
+  --grid-size: 16;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  width: 800px;
+  height: 800px;
+  /* border: 1px; */
+  border-style: solid;
+  display: grid;
+  color: green;
+  /* grid-template-columns: repeat(var(--grid-size), 1fr);
+  grid-template-rows: repeat(var(--grid-size), 1fr); */
+}
+
+/* #container:hover {
+  background-color: black;
+} */
+
+#gridSizeButton {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  display: flex;
+}
